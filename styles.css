@@ -1,0 +1,67 @@
+/* NAVBAR */
+
+.navbar{background-color:rgb(162, 214, 247);}
+.navbar-brand:hover{color: rgb(67, 67, 201);}
+/* .nav-link:hover{color: rgb(196, 239, 97);} */
+.navbar-brand{color: rgb(0, 153, 255); padding-left: 2rem; font-size: 2.5rem; font-weight: 500; }
+.nav-item{padding-right: 1rem;}
+
+.nav-link:hover {
+    color: rgb(196, 239, 97);
+    animation-name: zoom;
+    animation-duration: 0.7s;
+    
+  }
+  
+  @keyframes zoom {
+    0% {
+      font-size: '';
+    }
+    100% {
+      font-size: larger;
+    }
+  }
+
+/* TITLE */
+
+h1{padding-bottom: 5rem;}
+.title-image{width:90%; }
+.image{width:70%; padding-bottom: 1rem;}
+.title_changes{background-color:rgba(213,239,247,255)}
+.text{padding-right: 6%; padding-left: 7%; padding-top: 5%; padding-bottom: 2%;}
+
+
+
+/* FEATURES */
+
+
+#features{padding: 7% 8%;}
+.feature-box{text-align: center;}
+.fe-des{padding-bottom: 10px;}
+.challenges-left{font-size: 50px; font-weight: 700;}
+.challenges-right{font-size: 20px;font-weight: 700; color: rgb(190, 189, 189);text-decoration: none;}
+
+/* SLACK */
+
+.container{padding: auto;}
+.slack-word{font-weight: 800; font-size: 60px ; text-align: left;}
+#slack{background-color:rgba(213,239,247,255)}
+.slack-des1{font-weight: 500; text-align: left;}
+.slack-des{text-align: left;}
+.full-slack{padding-left: 30px; padding-right: 230px; padding-top: 3rem;}
+.slack-image{width:10%}
+.join{margin-bottom: 9%;}
+
+
+/* FOOTER */
+
+
+#footer{padding-top: 5rem;}
+.foot1{padding-left: 7%;}
+.p1{font-size: 15px;}
+.headeroffooter{margin-bottom: 3%; margin-top: 2%;}
+.footer-link{color:black; text-decoration: none;}
+.handles{ text-align: center;}
+.last-last {margin: 20px 10px;}
+
+
